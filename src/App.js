@@ -1,11 +1,13 @@
+import React, { useState } from 'react';
+import UseStateHook from './hooks/UseStateHook';
+
 function App() {
   return (
     <>
-      <button>-</button>
-      <span>0</span>
-      <button>+</button>
+      <h3>Hooks Tutorial</h3>
+      <UseStateHook />
     </>
-  );
+  )
 }
 
 export default App;
