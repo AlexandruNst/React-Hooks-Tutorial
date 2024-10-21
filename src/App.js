@@ -5,6 +5,7 @@ import UseContextHook from './hooks/03_useContext/1_UseContextHook';
 import CustomContextHook from './hooks/03_useContext/2_CustomHookUser';
 import UseRefHook from './hooks/04_useRef/UseRefHook';
 import UseMemoHook from './hooks/05_useMemo/UseMemoHook';
+import UseCallbackHook from './hooks/06_useCallback/UseCallbackHook';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CustomContextHook />
       <UseRefHook />
       <UseMemoHook />
+      <UseCallbackHook />
     </>
   )
 }
