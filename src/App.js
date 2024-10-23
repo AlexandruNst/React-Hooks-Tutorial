@@ -8,6 +8,7 @@ import UseMemoHook from './hooks/05_useMemo/UseMemoHook';
 import UseCallbackHook from './hooks/06_useCallback/UseCallbackHook';
 import UseReducerHook from './hooks/07_useReducer/UseReducerHook';
 import UseReducerHookComplex from './hooks/07_useReducer/UseReducerHookComplex';
+import UseTransitionHook from './hooks/08_useTransition/UseTransitionHook';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <UseCallbackHook />
       <UseReducerHook />
       <UseReducerHookComplex />
+      <UseTransitionHook />
     </>
   )
 }
