@@ -11,6 +11,7 @@ import UseReducerHookComplex from './hooks/07_useReducer/UseReducerHookComplex';
 import UseTransitionHook from './hooks/08_useTransition/UseTransitionHook';
 import UseDefferdValueHook from './hooks/09_useDeferredValue/UseDefferdValueHook';
 import UseLayoutEffectHook from './hooks/10_useLayoutEffect/UseLayoutEffectHook';
+import UseDebugValueHook from './hooks/11_useDebugValue/UseDebugValueHook';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <UseTransitionHook />
       <UseDefferdValueHook />
       <UseLayoutEffectHook />
+      <UseDebugValueHook />
     </>
   )
 }
