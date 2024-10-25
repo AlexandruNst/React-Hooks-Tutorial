@@ -12,6 +12,7 @@ import UseTransitionHook from './hooks/08_useTransition/UseTransitionHook';
 import UseDefferdValueHook from './hooks/09_useDeferredValue/UseDefferdValueHook';
 import UseLayoutEffectHook from './hooks/10_useLayoutEffect/UseLayoutEffectHook';
 import UseDebugValueHook from './hooks/11_useDebugValue/UseDebugValueHook';
+import UseImperativeHandle from './hooks/12_useImperativeHandle/UseImperativeHandle';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <UseDefferdValueHook />
       <UseLayoutEffectHook />
       <UseDebugValueHook />
+      <UseImperativeHandle />
     </>
   )
 }
